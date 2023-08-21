@@ -1,0 +1,14 @@
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+node_modules
+package.json
+package-lock.json
+config
+.dbset
+
+# ETC
+.env
