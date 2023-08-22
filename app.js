@@ -3,8 +3,8 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT;
 const path = require('path');
-const likes = require('./router/post.likes.router');
-const followers = require('./router/user.followers.router');
+const likes = require('./src/router/post.likes.router');
+const followers = require('./src/router/user.followers.router');
 
 // app.use('/api' /* 라우터*/);
 app.use('/apl', [likes, followers]);
